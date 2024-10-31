@@ -1,0 +1,52 @@
+#sch {
+	.seo-analyzer {
+		p {
+			line-height: 20px;
+			padding: 2px 0;
+			margin: 0;
+			text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+			margin-bottom: 2px;
+			border-radius: 3px;
+		}
+		.red,
+		.green,
+		.orange {
+			border: 1px solid rgba(0,0,0,0.2);
+			padding: 2px 2px 2px 10px;
+		}
+
+		.red span.counter,
+		.green span.counter,
+		.orange span.counter {
+			color: #fff;
+			padding: 0 5px;
+			border-radius: 3px;
+			float: right;
+			text-shadow: none;
+		}
+		.red {
+			background: @red-light;
+			color: @red-dark;
+
+			span.counter {
+				background: @red1;	
+			}
+		}
+		.green {
+			background: @green-light;
+			color: @green-dark;
+
+			span.counter {
+				background: @green1;
+			}
+		}
+		.orange {
+			background: @orange-light;
+			color: @orange-dark;
+
+			span.counter {
+				background: @orange;
+			}
+		}
+	}
+}
